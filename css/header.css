@@ -1,0 +1,62 @@
+.menu-item {
+  display: inline-block;
+  padding-inline: 1rem;
+  padding-left: 1rem;
+}
+
+.menu-search {
+  display: inline-block;
+  padding-left: 6rem;
+}
+
+button[type="submit"] {
+  padding: 8px 15px;
+  background-color: rgb(186, 217, 244); 
+  color: black; 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#campo-de-busca {
+  border-radius: 16px;
+  border: .5px solid;
+  width: 100px;
+}
+
+.menu-item a {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: .75rem;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
+.menu-item:hover {
+  background-color: rgb(186, 217, 244);
+  border-radius: 10px;
+  transition-duration: .3s;
+}
+
+.menu {
+  padding: 1rem 0;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+header {
+  background-color: aliceblue;
+}
+
+
+
+li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+
