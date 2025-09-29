@@ -11,41 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container">
-        <div>
-            <img src="../assets/tdb.png" alt="Foto projeto TdB+">
+    <header class="cabecalho container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="../assets/tdb-transparente.png" alt="Foto projeto TdB+" class="logo">
+            </a>
         </div>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item"><a href="project.html">Sobre o Projeto</a></li>
+                <li class="menu-item"><a href="faq.html">Dúvidas frequentes</a></li>
+                <li class="menu-item"><a href="contact.html">Contato</a></li>
+                <li class="menu-item"><a href="colaborators.html">Quem somos</a></li>
+                <li class="menu-item"><a href="https://paybox.doare.org/paybox?payboxId=83fed202-df0f-4665-9c74-688a834028d4" target="_blank">Faça sua doação</a></li>
+                <li class="menu-item"><a href="aboutong.html">Sobre a Turma do Bem</a></li>
+                <li class="menu-search">
+                    <form action="/pagina-de-busca" method="get">
+                        <label for="campo-de-busca"></label>
+                        <input type="search" id="campo-de-busca" name="q" placeholder="">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
     </header>
+    <div class="container">
+        <h1>Bem-vindo ao Projeto TdB+</h1>
+        <p>
+            O TdB+ nasce da parceria entre a ONG Turma do Bem e a FIAP, unindo tecnologia e propósito social para transformar a vida de adolescentes e mulheres em situação de vulnerabilidade. Nosso objetivo é oferecer um acesso mais eficiente e organizado aos tratamentos odontológicos, ajudando a reduzir barreiras e garantindo que quem precisa receba o cuidado adequado.
 
-    <nav class="menu">
-        <ul>
-            <li class="menu-item">
-                <a href="about.html">Sobre o Projeto</a>
-            </li>
-            <li class="menu-item">
-                <a href="faq.html">Dúvidas frequentes</a>
-            </li>
-            <li class="menu-item">
-                <a href="contact.html">Contato</a>
-            </li>
-            <li class="menu-item">
-                <a href="colaborators.html">Quem somos</a>
-            </li>
-            <!-- <li class="menu-item">
-                <a href="#sobre-a-ong">Sobre a ONG Turma do Bem</a>
-            </li>
-            <li class="menu-item">
-                <a href="https://paybox.doare.org/paybox?payboxId=83fed202-df0f-4665-9c74-688a834028d4" target="_blank">Faça sua doação</a>
-            </li> -->
-            <li class="menu-search">
-                <form action="/pagina-de-busca" method="get">
-                <label for="campo-de-busca"></label>
-                <input type="search" id="campo-de-busca" name="q" placeholder="">
-                <button type="submit">Buscar</button>
-                </form>
-            </li>
-        </ul>
-    </nav>
-    
+            Desenvolvido por alunos de Análise e Desenvolvimento de Sistemas da FIAP, o projeto cria soluções digitais que facilitam agendamentos, monitoramento de atendimentos e registro de dados e métricas, tudo de forma prática e segura. Cada funcionalidade foi pensada para que a ONG possa focar no que realmente importa: o sorriso e o bem-estar de quem atende.
+
+            Com o TdB+, unimos inovação tecnológica e impacto social, mostrando que é possível usar conhecimento acadêmico para transformar vidas e fortalecer iniciativas que realmente importam.
+        </p>
+    </div>
 </body>
 </html>
