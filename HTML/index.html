@@ -35,15 +35,69 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <h1>Bem-vindo ao Projeto TdB+</h1>
-        <p>
-            O TdB+ nasce da parceria entre a ONG Turma do Bem e a FIAP, unindo tecnologia e propósito social para transformar a vida de adolescentes e mulheres em situação de vulnerabilidade. Nosso objetivo é oferecer um acesso mais eficiente e organizado aos tratamentos odontológicos, ajudando a reduzir barreiras e garantindo que quem precisa receba o cuidado adequado.
+    <main class="grid container">
+        <section>
+            <h1>Bem-vindo ao Projeto TdB+</h1>
+            <p style="padding-bottom: 2rem;">
+                O TdB+ nasce da parceria entre a ONG Turma do Bem e a FIAP, unindo tecnologia e propósito social para transformar a vida de adolescentes e mulheres em situação de vulnerabilidade. Nosso objetivo é oferecer um acesso mais eficiente e organizado aos tratamentos odontológicos, ajudando a reduzir barreiras e garantindo que quem precisa receba o cuidado adequado.
+    
+                Desenvolvido por alunos de Análise e Desenvolvimento de Sistemas da FIAP, o projeto cria soluções digitais que facilitam agendamentos, monitoramento de atendimentos e registro de dados e métricas, tudo de forma prática e segura. Cada funcionalidade foi pensada para que a ONG possa focar no que realmente importa: o sorriso e o bem-estar de quem atende.
+    
+                Com o TdB+, unimos inovação tecnológica e impacto social, mostrando que é possível usar conhecimento acadêmico para transformar vidas e fortalecer iniciativas que realmente importam.
+            </p>
+        </section>
+        <section>
+            <h2 style="margin-bottom: 2rem;">Um sistema digital inovador que centraliza informações, conecta pacientes a dentistas voluntários e fortalece o impacto social da ONG Turma do Bem.</h2>
+        </section>
+        <section class="buttons">
+            <a href="project.html">Conheça o nosso projeto</a>
+            <a href="https://paybox.doare.org/paybox?payboxId=83fed202-df0f-4665-9c74-688a834028d4" target="_blank">Faça sua doação</a>
+        </section>
+        <section class="resumo">
+            <p> 
+                Na Turma do Bem, milhares de jovens entre 11 e 17 anos precisam de atendimento odontológico, mas a ONG enfrenta grandes desafios: perda de informações, falta de métricas e comunicação descentralizada.
 
-            Desenvolvido por alunos de Análise e Desenvolvimento de Sistemas da FIAP, o projeto cria soluções digitais que facilitam agendamentos, monitoramento de atendimentos e registro de dados e métricas, tudo de forma prática e segura. Cada funcionalidade foi pensada para que a ONG possa focar no que realmente importa: o sorriso e o bem-estar de quem atende.
+                O TdB+ nasceu como resposta a esses problemas:
+            </p>
+            <ul>
+                <li>
+                    Cadastro seguro e centralizado de pacientes e voluntários.                    
+                </li>
+                <li>
+                    Histórico completo de atendimentos e documentos.
+                </li>
+                <li>
+                    Comunicação integrada em um só lugar.
+                </li>
+                <li>
+                    Painéis de métricas confiáveis para medir impacto social.
+                </li>
+                <li>
+                    Inteligência Artificial de apoio para triagens iniciais.
+                </li>
+            </ul>
+            <p style="font-size: 1.5rem;">
+                <strong>
+                    Tudo isso sem abrir mão do mais importante: o atendimento humano e acolhedor, que é a essência da ONG.
+                </strong> 
+            </p>
 
-            Com o TdB+, unimos inovação tecnológica e impacto social, mostrando que é possível usar conhecimento acadêmico para transformar vidas e fortalecer iniciativas que realmente importam.
-        </p>
-    </div>
+
+        </section>
+    </main>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "c8063484-cd47-4c14-aed3-ebc436423eb7", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "55ab22fd-d7b8-453d-b4ec-a50776156079", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
 </body>
 </html>

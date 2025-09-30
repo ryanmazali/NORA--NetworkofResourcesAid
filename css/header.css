@@ -47,6 +47,7 @@ body {
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  
 }
 
 .menu-item:hover a {
@@ -79,3 +80,5 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: rgb(156, 197, 234);
 }
+
+
