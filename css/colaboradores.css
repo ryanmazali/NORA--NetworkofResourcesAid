@@ -1,28 +1,66 @@
-.sobre-nos {
-    padding: 80px 0;
-    background-color: #F8F8F8;
-}
-    
-.membros-grid {
-    width: 600px;
+.team {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
     gap: 30px;
-    margin-top: 40px;
-}
-    
-.membro-card {
+    margin: 40px auto;
+    max-width: 1100px;
     text-align: center;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
 }
-    
-.membro-card img {
-    width: 150px;
-    height: 150px;
+
+.member {
+    background-color: white; /* destaca no fundo aliceblue */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* foto redonda */
     object-fit: cover;
-    border-radius: 50%; 
     margin-bottom: 15px;
+    border: 3px solid #b0d6f5; /* detalhe azul suave */
+}
+
+.member h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #222; /* um preto mais suave */
+}
+
+.member p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 6px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.links a.github {
+    background-color: #333;
+    color: #fff;
+}
+
+.links a.linkedin {
+    background-color: #0a66c2;
+    color: #fff;
+}
+
+.links a:hover {
+    opacity: 0.85;
 }
