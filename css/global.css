@@ -2,12 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* max-width: 992px; */
+
 }
 
 body {
   background-color: aliceblue;
 }
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1300px; 
+    margin: 0 auto;     
+  }
+} 
 
 .green {
   color: green;
@@ -15,9 +22,42 @@ body {
 
 footer {
   border-radius: 10px;
-    background: rgb(186, 217, 244);
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+  background: rgb(186, 217, 244);
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
+
+.about-section {
+  background: #fff;
+  padding: 30px;
+  margin: 25px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.about-section h1,
+.about-section h2 {
+  margin-bottom: 15px;
+  color: #0a3d62;
+}
+
+.about-section p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.about-section ul,
+.about-section ol {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.about-section li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+

@@ -1,33 +1,3 @@
-.about-section {
-  background: #fff;
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.about-section h1,
-.about-section h2 {
-  margin-bottom: 15px;
-  color: #0a3d62;
-}
-
-.about-section p {
-  margin-bottom: 15px;
-  font-size: 1rem;
-  color: #333;
-}
-
-.about-section ul,
-.about-section ol {
-  margin-left: 20px;
-  padding-left: 10px;
-}
-
-.about-section li {
-  margin-bottom: 8px;
-  font-size: 0.95rem;
-}
 
 .tecnologias ul {
   list-style: none;
@@ -63,7 +33,6 @@
   transform: scale(1.1);
 }
 
-/* Roadmap visual */
 .roadmap-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
