@@ -20,15 +20,15 @@
     margin-bottom: 2rem;
 }
 
-.buttons a:first-child:hover {
+.buttons a:hover {
     background-color: rgb(226, 122, 31);
     transform: scale(1.05);
 }
 
-.buttons a:hover {
+/* .buttons a:hover {
     background-color: rgb(60, 202, 50);
     transform: scale(1.05);
-}
+} */
 
 
 
