@@ -12,7 +12,7 @@ O TdB+ é uma plataforma digital que visa apoiar a ONG Turma do Bem na gestão d
 - PWA (Progressive Web App)
 
 ## 🔗 Acesse o projeto
-👉 [Clique aqui para acessar o site do projeto](COLOQUE_AQUI_O_LINK_DO_SEU_REPOSITÓRIO)
+👉 [Clique aqui para acessar o site do projeto](https://github.com/ryanmazali/TdBPlus.git)
 
 ## 👨‍💻 Integrantes
 - Diego Paulino – RM: 566841  
