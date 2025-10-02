@@ -51,6 +51,7 @@
 
 .roadmap-card:hover {
   transform: translateY(-5px);
+  background-color: aliceblue;
 }
 
 .roadmap-card img {

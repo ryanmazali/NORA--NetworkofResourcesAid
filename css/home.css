@@ -1,0 +1,181 @@
+
+.cabecalho {
+  display: flex;
+  align-items: center;         
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 12px; 
+}
+
+
+.cabecalho .logo img {
+  width: 110px;               
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.menu-item a {
+  position: relative;
+  color: #222;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+/* Underline animado */
+.menu-item a::after {
+  content: "";
+  position: absolute;
+  bottom:-3px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(226, 122, 31);
+  transition: width 0.3s ease;
+}
+
+.menu-item a:hover {
+  color: rgb(226, 122, 31);
+}
+
+.menu-item a:hover::after {
+  width: 100%;
+}
+
+.menu-search form {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  height: 40px;
+}
+
+#campo-de-busca {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  height: 100%;
+}
+
+button[type="submit"] {
+  padding: 6px 15px;
+  background-color: rgb(186, 217, 244);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(156, 197, 234);
+}
+
+.buttons {
+    display: flex;         
+    gap: 20px;      
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons a {
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: rgb(186, 217, 244);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-align: center;
+    width: 20%;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.buttons a:hover {
+    background-color: rgba(226, 122, 31, 0.826);
+    transform: scale(1.05);
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.resumo {
+    margin-bottom: 5rem;
+}
+
+.resumo ul {
+    padding-bottom: 2rem;
+}
+
+.highlight {
+    color: rgb(226, 122, 31);
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px 0;
+  flex-wrap: wrap; /* caso em telas menores, eles quebrem para baixo */
+}
+
+.button-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background: white;
+  border-radius: 15px;
+  padding: 25px 20px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.button-card img {
+  width: 120px;   /* controla a exibição */
+  height: 120px;
+  margin-bottom: 15px;
+  object-fit: contain; /* garante que não estique ou corte */
+}
+
+.button-card span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+}
+
+.button-card:hover {
+  transform: translateY(-8px);
+  background: rgb(186, 217, 244);
+}
+
+
+
+
+
