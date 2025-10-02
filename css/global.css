@@ -87,4 +87,37 @@ footer {
   font-size: 0.95rem;
 }
 
+/* Galeria de imagens (páginas Melhor Dentista e Sorriso do Bem) */
+.image-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 260px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Imagem de destaque (Megatriagens) */
+.image-banner {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.image-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
 
