@@ -23,6 +23,9 @@
   align-items: center;
   gap: 2rem;
   list-style: none;
+  & :first-child {
+    padding-left: .5rem;
+  }
 }
 
 .menu-item a {
@@ -39,7 +42,6 @@
   height: 40px;
 }
 
-/* Underline animado */
 .menu-item a::after {
   content: "";
   position: absolute;
@@ -57,35 +59,6 @@
 
 .menu-item a:hover::after {
   width: 100%;
-}
-
-.menu-search form {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  height: 40px;
-}
-
-#campo-de-busca {
-  border-radius: 20px;
-  border: 1px solid #ccc;
-  padding: 6px 12px;
-  height: 100%;
-}
-
-button[type="submit"] {
-  padding: 6px 15px;
-  background-color: rgb(186, 217, 244);
-  color: black;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  height: 100%;
-}
-
-button[type="submit"]:hover {
-  background-color: rgb(156, 197, 234);
 }
 
 .buttons {
@@ -140,7 +113,7 @@ ul li {
   gap: 30px;
   justify-content: center;
   margin: 40px 0;
-  flex-wrap: wrap; /* caso em telas menores, eles quebrem para baixo */
+  flex-wrap: wrap;
 }
 
 .button-card {
@@ -157,10 +130,10 @@ ul li {
 }
 
 .button-card img {
-  width: 120px;   /* controla a exibição */
+  width: 120px; 
   height: 120px;
   margin-bottom: 15px;
-  object-fit: contain; /* garante que não estique ou corte */
+  object-fit: contain;
 }
 
 .button-card span {
