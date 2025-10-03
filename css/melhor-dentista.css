@@ -1,0 +1,21 @@
+.hero-bg-melhordentista {
+  background: url("../assets/melhordentista-bg.png") center/cover no-repeat;
+  height: 300px; 
+  min-height: 300px; 
+  max-height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden; 
+}
+
+
+.hero-bg-melhordentista::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.641);
+}

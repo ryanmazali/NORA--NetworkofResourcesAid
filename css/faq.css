@@ -25,7 +25,7 @@
 
 .faq-item {
   margin-bottom: 15px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   background-color: white;
@@ -60,4 +60,26 @@
   line-height: 1.5;
   color: #333;
   border-top: 1px solid #ddd;
+}
+
+.hero-bg-faq {
+  background: url("../assets/faq-bg.png") center/cover no-repeat;
+  height: 300px; 
+  min-height: 300px; 
+  max-height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden; 
+}
+
+
+.hero-bg-faq::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.641);
 }

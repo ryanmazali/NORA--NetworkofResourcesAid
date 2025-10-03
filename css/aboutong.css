@@ -38,7 +38,7 @@
 
 .card {
   background: aliceblue;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.3s;
@@ -66,7 +66,7 @@
 .premios li {
   background: #f0f7ff;
   padding: 10px 15px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   margin-bottom: 0.6rem;
   font-size: 1rem;
 }
@@ -84,7 +84,7 @@
 
 .program-card {
   background: #fff;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   padding: 2rem;
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -111,7 +111,7 @@
   display: inline-block;
   text-decoration: none;
   padding: 0.7rem 1.2rem;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   font-weight: 600;
   font-size: 0.95rem;
   background: rgb(186, 217, 244);
@@ -122,5 +122,27 @@
 .btn-card:hover {
   background: rgb(226, 122, 31);
   color: #fff;
+}
+
+.hero-sobreaong {
+  background: url("../assets/sobreaong-bg.png") center/cover no-repeat;
+  height: 300px; 
+  min-height: 300px; 
+  max-height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden; 
+}
+
+
+.hero-sobreaong::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 19, 24, 0.648);
 }
 

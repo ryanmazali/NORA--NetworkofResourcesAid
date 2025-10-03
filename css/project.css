@@ -42,7 +42,7 @@
 
 .roadmap-card {
   background: white;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -64,4 +64,26 @@
   font-size: 0.95rem;
   color: #333;
   line-height: 1.4;
+}
+
+.hero-bg-projeto {
+  background: url("../assets/bg-projeto.png") center/cover no-repeat;
+  height: 300px; 
+  min-height: 300px; 
+  max-height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden; 
+}
+
+
+.hero-bg-projeto::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.641);
 }
