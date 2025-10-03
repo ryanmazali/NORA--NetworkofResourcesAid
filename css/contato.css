@@ -94,3 +94,25 @@
   transform: scale(1.2);
   
 }
+
+.hero-bg-contato {
+  background: url("../assets/contato.png") center/cover no-repeat;
+  height: 300px; 
+  min-height: 300px; 
+  max-height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden; 
+}
+
+
+.hero-bg-contato::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 19, 24, 0.625);
+}
