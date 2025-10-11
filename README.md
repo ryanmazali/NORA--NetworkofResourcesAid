@@ -1,4 +1,4 @@
-# Projeto TdB+ (Turma do Bem)
+# Projeto NORA - Network of Resources & Aid (Turma do Bem)
 
 Este repositório contém o projeto acadêmico **Projeto NORA**, desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da **FIAP** em parceria com a ONG **Turma do Bem**.  
 
