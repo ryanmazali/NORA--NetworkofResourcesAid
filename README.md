@@ -1,13 +1,13 @@
 # Projeto TdB+ (Turma do Bem)
 
-Este repositório contém o projeto acadêmico **TdB+**, desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da **FIAP** em parceria com a ONG **Turma do Bem**.  
+Este repositório contém o projeto acadêmico **Projeto NORA**, desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da **FIAP** em parceria com a ONG **Turma do Bem**.  
 
 O projeto une **tecnologia e impacto social**, com foco em melhorar a gestão da ONG e ampliar o alcance do atendimento odontológico gratuito a adolescentes e mulheres em situação de vulnerabilidade.  
 
 ---
 
 ## 📌 Sobre o projeto
-O **TdB+** é uma plataforma digital que tem como objetivo:  
+O **Projeto NORA** é uma plataforma digital que tem como objetivo:  
 - Centralizar o cadastro de pacientes e voluntários.  
 - Facilitar o registro de documentos e histórico de atendimentos.  
 - Oferecer dashboards de métricas para medir impacto social.  
@@ -28,7 +28,9 @@ Com isso, buscamos apoiar a ONG **Turma do Bem** a aumentar sua eficiência, red
 ---
 
 ## 🔗 Acesse o projeto
-👉 [Clique aqui para acessar o repositório no GitHub](https://github.com/ryanmazali/TdBPlus)  
+👉 [Clique aqui para acessar o repositório no GitHub](https://github.com/ryanmazali/NORA--NetworkofResourcesAid)
+
+👉 [Clique aqui para acessar a página do projeto](https://ryanmazali.github.io/NORA--NetworkofResourcesAid/)
 
 ---
 
