@@ -10,29 +10,33 @@
 </head>
 <body>
     <header class="cabecalho">
-        <div class="container cabecalho-content">
+        <div class="container cabecalho-content">   
             <div class="logo">
                 <a href="index.html">
                     <img src="assets/nora-1.png" alt="Foto projeto TdB+">
                 </a>
             </div>
-            <nav class="menu">
-                <ul>
+            <nav class="menu" id="menu-principal">
+                <ul class="menu-items">
                     <li class="menu-item"><a href="index.html">Home</a></li>
                     <li class="menu-item"><a href="project.html">Sobre o Projeto</a></li>
                     <li class="menu-item"><a href="faq.html">Dúvidas frequentes</a></li>
-                    <li class="menu-item"><a href="contact.html">Contato</a></li>
+                    <!-- <li class="menu-item"><a href="contact.html">Contato TdB</a></li> -->
+                    <li class="menu-item"><a href="sugestion.html">Contato NORA</a></li>
                     <li class="menu-item"><a href="colaborators.html">Quem somos</a></li>
                     <li class="menu-item"><a href="https://paybox.doare.org/paybox?payboxId=83fed202-df0f-4665-9c74-688a834028d4" target="_blank">Faça sua doação</a></li>
                     <li class="menu-item"><a href="aboutong.html">Sobre a Turma do Bem</a></li>
                 </ul>
             </nav>
+            <button id="btn-menu" aria-label="Abrir Menu" aria-expanded="false" aria-controls="menu-principal">
+                &#9776; 
+            </button>           
         </div>
     </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Bem-vindo ao Projeto NORA</h1>
+            <h1>Bem-vindo ao NORA</h1>
             <p>Transformando vidas com tecnologia e solidariedade. O NORA centraliza informações, conecta pacientes e voluntários e fortalece o impacto da ONG.</p>
         </div>
     </section>
@@ -65,7 +69,7 @@
             <p> 
                 Na Turma do Bem, milhares de jovens entre 11 e 17 anos precisam de atendimento odontológico, mas a ONG enfrenta grandes desafios: perda de informações, falta de métricas e comunicação descentralizada.
             </p>
-            <ul>
+            <ul class="list-index">
                 <li>📌 Cadastro seguro e centralizado de pacientes e voluntários.</li>
                 <li>📌 Histórico completo de atendimentos e documentos.</li>
                 <li>📌 Comunicação integrada em um só lugar.</li>
@@ -83,5 +87,6 @@
     <footer>
         <p>&copy; 2025 TdB+ | Projeto acadêmico FIAP</p>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

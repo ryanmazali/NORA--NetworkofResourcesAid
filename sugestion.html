@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORA</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital@0;1&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container cabecalho-content">   
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/nora-1.png" alt="Foto projeto TdB+">
+                </a>
+            </div>
+            <nav class="menu" id="menu-principal">
+                <ul class="menu-items">
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="project.html">Sobre o Projeto</a></li>
+                    <li class="menu-item"><a href="faq.html">Dúvidas frequentes</a></li>
+                    <!-- <li class="menu-item"><a href="contact.html">Contato TdB</a></li> -->
+                    <li class="menu-item"><a href="sugestion.html">Contato NORA</a></li>
+                    <li class="menu-item"><a href="colaborators.html">Quem somos</a></li>
+                    <li class="menu-item"><a href="https://paybox.doare.org/paybox?payboxId=83fed202-df0f-4665-9c74-688a834028d4" target="_blank">Faça sua doação</a></li>
+                    <li class="menu-item"><a href="aboutong.html">Sobre a Turma do Bem</a></li>
+                </ul>
+            </nav>
+            <button id="btn-menu" aria-label="Abrir Menu" aria-expanded="false" aria-controls="menu-principal">
+                &#9776; 
+            </button>           
+        </div>
+    </header>
+    <section class="hero-bg-contato">
+        <div class="hero-content">
+            <h1>Entre em contato conosco</h1>
+        </div>
+    </section>
+    <main class="container">
+
+        <section class="team-contact">
+            <h2>Nosso Time</h2>
+            <p>Entre em contato diretamente com um dos integrantes do Projeto NORA.</p>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Ryan Mazali</h3>
+                    <p><strong>E-mail:</strong> <a href="mailto:rm567168@fiap.com.br">rm567168@fiap.com.br</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511910467715" target="_blank">(11) 91046-7715</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ryanmazali" target="_blank">linkedin.com/in/ryanmazali</a></p>
+                </div>
+
+                <div class="team-member">
+                    <h3>Diego Paulino</h3>
+                    <p><strong>E-mail:</strong> <a href="mailto:rm566841@fiap.com.br">rm566841@fiap.com.br</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511950354422" target="_blank">(11) 95035-4422</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/diego-paulino-9bb31b36a/" target="_blank">linkedin.com/in/diego-paulino</a></p>
+                </div>
+
+                <div class="team-member">
+                    <h3>Guilherme Dabul</h3>
+                    <p><strong>E-mail:</strong> <a href="mailto:rm559901@fiap.com.br">rm559901@fiap.com.br</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511997604031" target="_blank">(11) 99760-4031</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/guilhermedabul/" target="_blank">linkedin.com/in/guilhermedabul</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-contact">
+            <h2>Envie sua Mensagem</h2>
+            <p>Use o formulário abaixo para tirar dúvidas, enviar sugestões ou participar como voluntário.</p>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome completo*</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail*</label>
+                    <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+                    <small id="error-email" class="error-message">Por favor, insira um e-mail válido.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto*</label>
+                    <input type="text" id="assunto" name="assunto" required placeholder="Digite o assunto">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem*</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva sua mensagem"></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                <p id="mensagemConfirmacao" class="mensagem-confirmacao"></p>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 TdB+ | Projeto acadêmico FIAP</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

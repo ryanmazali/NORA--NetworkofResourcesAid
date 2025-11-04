@@ -119,3 +119,16 @@ footer {
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
+
+@media (max-width: 767px) {
+  .about-section ul,
+  .about-section ol {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .list-index {
+    list-style: none;
+    padding: 2rem 0;
+  }
+}

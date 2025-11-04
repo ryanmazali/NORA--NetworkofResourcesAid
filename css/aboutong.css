@@ -38,7 +38,6 @@
 
 .card {
   background: aliceblue;
-  /* border-radius: 12px; */
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.3s;
@@ -66,7 +65,6 @@
 .premios li {
   background: #f0f7ff;
   padding: 10px 15px;
-  /* border-radius: 8px; */
   margin-bottom: 0.6rem;
   font-size: 1rem;
 }
@@ -84,7 +82,6 @@
 
 .program-card {
   background: #fff;
-  /* border-radius: 15px; */
   padding: 2rem;
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -111,7 +108,6 @@
   display: inline-block;
   text-decoration: none;
   padding: 0.7rem 1.2rem;
-  /* border-radius: 8px; */
   font-weight: 600;
   font-size: 0.95rem;
   background: rgb(186, 217, 244);
@@ -138,7 +134,6 @@
   overflow: hidden; 
 }
 
-
 .hero-sobreaong::after {
   content: "";
   position: absolute;
@@ -146,3 +141,71 @@
   background: rgba(16, 19, 24, 0.648);
 }
 
+/* ==============================
+   RESPONSIVIDADE PADRONIZADA
+   ============================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .about {
+    padding: 2rem 1rem;
+  }
+  .about-hero h1 {
+    font-size: 1.8rem;
+  }
+  .program-cards {
+    grid-template-columns: 1fr;
+  }
+  .program-card {
+    padding: 1.5rem;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .program-cards {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1024px){
+  .program-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .about {
+    padding: 3rem 2rem;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  .about-hero h1 {
+    font-size: 2.4rem;
+  }
+  .program-card {
+    padding: 2.5rem;
+  }
+}
+
+/* Extra-large devices (large laptops and desktops, 1300px and up) */
+@media (min-width: 1300px) {
+  .about {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
