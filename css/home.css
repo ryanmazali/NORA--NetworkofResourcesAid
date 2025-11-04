@@ -43,58 +43,48 @@
   font-weight: 500;
 }
 
-/* Esconde o botão hambúrguer no desktop */
 #btn-menu {
     display: none;
 }
 
-
-/* ========================================
-   ESTILOS DO HEADER (MOBILE - @media)
-   ======================================== */
-
-/* Usando 767px (1px a menos que 768px, um breakpoint comum) */
 @media (max-width: 992px) {
     
-    /* 1. Mostra o botão hambúrguer */
     #btn-menu {
         display: block;
         font-size: 28px;
         background: none;
         border: none;
-        color: #0a3d62; /* Cor do seu site */
+        color: #0a3d62; 
         cursor: pointer;
-        z-index: 1001; /* Fica por cima do menu */
+        z-index: 1001; 
     }
-
-    /* 2. Prepara o menu para ficar escondido */
     .menu {
         position: fixed;
         top: 0;
-        right: 0; /* Vem da direita */
-        width: 280px; /* Largura do menu */
-        height: 100vh; /* Altura total */
+        right: 0; 
+        width: 280px;
+        height: 100vh; 
         background-color: #ffffff;
         box-shadow: -4px 0 10px rgba(0,0,0,0.1);
-        
-        /* Começa 100% fora da tela (à direita) */
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
         z-index: 1000;
     }
-
-    /* 3. A classe .ativo que o JS vai adicionar */
     .menu.ativo {
-        transform: translateX(0); /* Tra_z o menu para a tela */
+        transform: translateX(0);
     }
-
-    /* 4. Ajusta os links para ficarem em coluna */
     .menu ul {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
-        padding: 80px 30px 30px 30px; /* Espaço no topo */
+        padding: 80px 30px 30px 30px;
     }
+}
+
+@media (max-width: 600px) {
+  .hero-content p {
+    margin-bottom: 0;
+  }
 }
 
 .menu-item a::after {
@@ -152,9 +142,10 @@
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   line-height: 1.6;
 }
+
 
 .about-section {
   background: #fff;
