@@ -171,14 +171,15 @@
   }
 }
 
-@media (max-width: 768px) {
-  .cards {
+@media (max-width: 1090px) {
+  .program-cards {
     grid-template-columns: 1fr;
   }
+
 }
 
 @media (max-width: 1024px){
-  .program-cards {
+  .cards {
     grid-template-columns: 1fr;
   }
 }
