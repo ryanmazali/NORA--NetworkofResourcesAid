@@ -134,3 +134,118 @@ footer {
     padding: 2rem 0;
   }
 }
+
+/* ==============================
+   RESPONSIVIDADE PADRONIZADA
+   ============================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  .about-section {
+    padding: 20px;
+    margin: 15px 0;
+  }
+
+  .about-section h1,
+  .about-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .about-section p {
+    font-size: 0.95rem;
+  }
+
+  .image-gallery img {
+    width: 180px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .about-section {
+    padding: 25px;
+  }
+
+  .image-gallery img {
+    width: 220px;
+  }
+
+  .about-section h1,
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .about-section {
+    padding: 30px 40px;
+  }
+
+  .image-gallery {
+    gap: 25px;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 1rem 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    max-width: 1100px;
+    margin: 30px auto;
+  }
+
+  .image-gallery img {
+    width: 240px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Extra-large devices (large laptops and desktops, 1300px and up) */
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .about-section {
+    max-width: 1200px;
+    padding: 40px 60px;
+  }
+
+  .image-gallery img {
+    width: 280px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
+

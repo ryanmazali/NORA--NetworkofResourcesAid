@@ -83,3 +83,106 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.641);
 }
+
+/* ==============================
+   RESPONSIVIDADE PADRONIZADA
+   ============================== */
+
+
+@media (max-width: 600px) {
+  .faq {
+    padding: 30px 15px;
+  }
+
+  .faq h2 {
+    font-size: 1.6rem;
+  }
+
+  .faq p {
+    font-size: 0.95rem;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .faq-answer {
+    font-size: 0.9rem;
+  }
+
+  .hero-bg-faq {
+    height: 220px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .faq h2 {
+    font-size: 1.8rem;
+  }
+
+  .faq p {
+    font-size: 1rem;
+  }
+
+  .faq-accordion {
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .faq {
+    padding: 50px 30px;
+  }
+
+  .faq h2 {
+    font-size: 1.9rem;
+  }
+
+  .faq-question {
+    font-size: 1.05rem;
+  }
+
+  .faq-answer {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .faq {
+    padding: 60px 40px;
+  }
+
+  .faq h2 {
+    font-size: 2rem;
+  }
+
+  .faq-accordion {
+    max-width: 900px;
+  }
+
+  .faq-question {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .faq {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .faq h2 {
+    font-size: 2.2rem;
+  }
+
+  .faq p {
+    font-size: 1.1rem;
+  }
+
+  .faq-accordion {
+    max-width: 1000px;
+  }
+}

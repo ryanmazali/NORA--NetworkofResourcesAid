@@ -93,6 +93,71 @@
   padding: 20px;
 }
 
+/* ==============================
+   RESPONSIVIDADE PADRONIZADA
+   ============================== */
+
+@media (max-width: 600px) {
+  .team {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 1rem;
+  }
+
+  .member {
+    padding: 40px;
+  }
+
+  .member .foto {
+    width: 180px;
+    height: 180px;
+  }
+
+  .links a img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-colaboradores {
+    height: 220px;
+  }
+}
+
+@media (min-width: 600px) {
+  .member {
+    padding: 50px;
+  }
+
+  .member .foto {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .member h2 {
+    font-size: 1.1rem;
+  }
+
+  .member p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .team {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 60px auto;
+  }
+
+  .member .foto {
+    width: 260px;
+    height: 260px;
+  }
+}
+
 
 @media (max-width: 992px) {
     .team {
@@ -104,11 +169,11 @@
     }
 
     .member .foto {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 3px solid #b0d6f5; 
-}
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; 
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 3px solid #b0d6f5; 
+    }
 }
